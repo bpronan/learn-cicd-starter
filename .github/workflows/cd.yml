@@ -30,4 +30,4 @@ jobs:
               uses: 'google-github-actions/setup-gcloud@v2'
         
             - name: 'Build and push image'
-              run: gcloud builds submit --tag REGION-docker.pkg.dev/PROJECT_ID/REPOSITORY/IMAGE:TAG .
+              run: gcloud builds submit --tag us-central1-docker.pkg.dev/indigo-tracker-433018-k5/notely-ar-repo/notaly:latest .
